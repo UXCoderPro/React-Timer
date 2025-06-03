@@ -5,7 +5,7 @@ import Timer from "./Components/Timer";
 
 function App() {
   return (
-    <div className="flex justify-center items-center w-full h-screen bg-hero-pattern bg-center bg-cover">
+    <div className="flex justify-center items-center w-full h-screen bg-hero-pattern bg-center bg-cover px-4 lg:px-0">
       <Header />
       <Timer />
       <Footer />
